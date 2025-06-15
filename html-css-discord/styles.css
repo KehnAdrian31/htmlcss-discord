@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
+/* general */
 header{
   background-color: #3160E0;
   padding: 10px 0;
 }
 
+/* layout classes */
 .header-container{
   max-width: 1200px;
   margin: 0 auto;
@@ -33,6 +35,7 @@ header ul{
   
 }
 
+/* utilities */
 header ul li{
   color: white;
   margin-right: 0 15px;
@@ -45,5 +48,58 @@ header ul li{
 .accedi{
   background-color: white;
   padding: 10px 15px;
-  border-radius: 40%;
+  border-radius: 40px;
+}
+
+/* top content */
+.bg-img {
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 710px;
+    background-repeat: no-repeat;
+}
+
+.top-container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.top-btns{
+  display: flex;
+}
+
+.download{
+  margin-right: 20px; 
+  background-color: white;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+.title{
+  align-items: center;
+  padding: 50px;
+  color: white;
+  font-size: 60px;
+}
+
+.context{
+  color: white;
+  font-size: 23px;
+  padding-bottom: 20px;
+  line-height: 2rem;
+}
+
+.top-btns{
+  justify-content: center;
+  font-size: 23px;
+}
+
+
+.dc-browser{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 40px;
 }
