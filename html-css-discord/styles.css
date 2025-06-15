@@ -9,7 +9,9 @@ header{
   background-color: #3160E0;
   padding: 10px 0;
 }
-
+body{
+  font-family: sans-serif;
+}
 /* layout classes */
 .header-container{
   max-width: 1200px;
@@ -96,10 +98,90 @@ header ul li{
   font-size: 23px;
 }
 
-
 .dc-browser{
   background-color: black;
   color: white;
   padding: 15px;
   border-radius: 40px;
 }
+/* channel */
+
+.bg-white{
+  background-color: white;
+}
+.channel-container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.channels{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 100px 0px;
+  align-items: center;
+}
+
+.channel-img{
+  width: 60%;
+  padding: 0 50px;
+}
+
+.channel-context{
+  width: 40%;
+  padding: 0 50px;
+}
+
+.channel-title{
+  font-size: 42px;
+  padding-bottom: 40px ;
+}
+
+.channel-description{
+  font-size: 22px;
+}
+
+.divider{
+  aspect-ratio: 2828/200;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wave1{
+  background-image: url(./img/wave-haikei\ \(1\).svg);
+}
+/* voice channel */
+
+.bg-gray{
+  background-color: #f6f6f6;
+}
+.voice-chat{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.vc-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  align-items: center;
+}
+
+.vc-context{
+  width: 40%;
+  padding: 0 50px;
+}
+
+.vc-title{
+  font-size: 42px;
+  padding-bottom: 40px;
+}
+
+.vc-desc{
+  font-size: 22px;
+}
+
+.vc-image{
+  width: 60%;
+  padding: 0 50px;
+}
+
