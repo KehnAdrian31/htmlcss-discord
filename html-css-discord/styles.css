@@ -262,3 +262,53 @@ header ul li{
   color: white;
   margin-bottom: 150px;
 }
+
+footer{
+  background-color: #23272A;
+}
+
+
+.top-footer{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer-container{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.socials{
+  width: 40%;
+}
+.language .ita-img{
+  max-width: 4%;
+  height: auto;
+}
+
+.language, .icons{
+  color: white;
+}
+
+.footer-title{
+  color: #758DD7;
+  padding-bottom: 5px;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li{
+color: white;
+line-height: 30px;
+}
+
+.icons{
+  padding: 15px 0;
+}
+
+.icons i{
+  margin-right: 20px;
+}
