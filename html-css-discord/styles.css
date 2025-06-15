@@ -12,6 +12,7 @@ header{
 body{
   font-family: sans-serif;
 }
+
 /* layout classes */
 .header-container{
   max-width: 1200px;
@@ -146,7 +147,7 @@ header ul li{
   background-size: cover;
 }
 
-.wave1{
+.wave1, .wave3{
   background-image: url(./img/wave-haikei\ \(1\).svg);
 }
 
@@ -219,4 +220,45 @@ header ul li{
 
 .role-desc{
   font-size: 22px;
+}
+
+/* postscipt */
+
+.postscript{
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+.postscript-container{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.postcript-title{
+  font-size: 42px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.postscript-desc{
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.ready{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.download-btn{
+  font-size: 23px;
+  padding: 15px 25px;
+  border-radius: 40px;
+  background-color: #8AA1E0;
+  color: white;
+  margin-bottom: 150px;
 }
